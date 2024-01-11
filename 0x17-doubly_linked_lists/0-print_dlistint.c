@@ -8,6 +8,7 @@ size_t print_dlistint(const dlistint_t *h)
 {
 	/*Variable to store the number of nodes in the list.*/
 	size_t nodes = 0;
+
 	while (h)
 	{
 		/*Increment the node count.*/
